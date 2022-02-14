@@ -1,0 +1,66 @@
+/*general*/
+* {
+    font-family: 'Nunito',
+        'sans-serif';
+    font-family: 'Varela Round',
+        'sans-serif';
+}
+
+/*navbar*/
+.header span.news {
+    color: rgb(81, 81, 204);
+}
+
+.header span {
+    font-style: italic;
+    font-size: 40px;
+}
+
+.header .active {
+    background-color: rgb(81, 81, 204) !important;
+    color: #fff !important;
+}
+
+.content .card .card-img-top {
+    height: 170px;
+}
+
+.content .card .card-body .card-title {
+    color: rgb(81, 81, 204);
+    font-size: 18px;
+}
+
+.content .card .card-footer .card-author {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+/*404 page*/
+.error-container .error-title {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px auto;
+}
+
+.error-container .error-name {
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: crimson;
+    margin: 20px auto;
+}
+
+/*footer*/
+.footer {
+    text-align: center;
+    background-color: rgb(81, 81, 204);
+    color: #fff;
+    padding: 30px 0;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.footer a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}

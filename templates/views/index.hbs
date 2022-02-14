@@ -1,0 +1,25 @@
+<!-- header -->
+{{>header}}
+
+<!-- main body -->
+<div class="content">
+    <div class="row justify-content-center">
+        {{#each art}}
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+            <div class="card h-100">
+                <img src={{this.urlToImage}} class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.title}}</h5>
+                    <p class="card-text">{{this.description}}</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <h6 class="card-author">{{this.author}}</h6>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+
+<!-- footer -->
+{{>footer}}
